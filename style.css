@@ -174,7 +174,7 @@ main{
     flex-direction: column;
     align-items: center;
     gap: 80px;
-    margin: 60px 0;
+    margin-top: 60px;
 
 }
 .curriculum h1{
@@ -312,7 +312,7 @@ main{
     flex-direction: column;
     align-items: center;
     gap: 70px;
-    margin-top: 100px;
+    padding: 100px 0px;
     background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
 
 }
@@ -452,3 +452,95 @@ main{
 }
 
 
+/* footer */
+.footer-container{
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    height: 519px;
+    background: rgb(1, 172, 253);
+}
+
+.footer{
+    width: 1070.91px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+
+}
+
+.footer-info{
+    width: 410px;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.footer-logo h1{
+    width: 206.11px;    
+    font-size: 42.14px;
+    font-weight: 700;
+    line-height: 39.51px;
+    margin-left: 5px;
+
+}
+
+
+
+.footer-logo img{
+    width: 82.9px;
+    height: 81.65px;
+}
+
+
+.footer-description{
+    padding: 10px;
+    padding-top: 35px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.footer-menu h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.footer-menu li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.footer-menu a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.footer-menu a:hover{
+    color: black;
+    transition: .5s;
+}
+
+
+
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons img{
+    padding: 0 2px;
+    transition: transform .3s;
+}
+
+.social-icons img:hover{
+    transform: scale(1.2);
+}
