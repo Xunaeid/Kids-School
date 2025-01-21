@@ -15,6 +15,7 @@
 </head>
 <body>
     <header class="header">
+        <!-- nav for big screen -->
         <nav class="nav">
             <div class="logo">
                 <img src="assets/logo.png" alt="logo">
@@ -32,6 +33,17 @@
                     <button class="cntct-btn">Contact</button>
                 </div>
         </nav>
+
+        <!-- nav for small screen -->
+        <nav class="sml-nav">
+            <div class="sml-nav-logo">
+                <img src="assets/logo.png" alt="logo">
+            </div>
+            <div class="dropdown">
+                <img src="assets/menu.png" alt="">
+            </div>
+        </nav>
+
         <div class="banner">
             <div class="banner-info">
                 <h1 class="banner-title"><span class="orng-title">Empowering</span><br> Students from small age <span class="blu-title">towards vision</span></h1>
@@ -47,7 +59,7 @@
 
     </header>
 
-    <main>
+    <main >
         <section class="curriculum">
             <h1>Standard Curriculum</h1>
             <div class="cards">
@@ -122,7 +134,7 @@
                     <div class="story-card">
                         <img src="assets/story-5.png" alt="">
                         <div class="story-card-info">
-                            <div id="date-july"><p> July 19. 2019</p></div>
+                            <div class="date" id="date-july"><p> July 19. 2019</p></div>
                             <p class="story-card-title">
                                 Conversation rhymes improve kids listening 
                             </p>
@@ -135,7 +147,7 @@
         </section>
 
         <!-- Footer -->
-        <section class="footer-container">
+        <section class="footer-container, hide">
             <div class="footer">
                 <div class="footer-info">
                     <div class="footer-logo">
